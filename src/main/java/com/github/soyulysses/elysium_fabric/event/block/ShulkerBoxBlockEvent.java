@@ -1,7 +1,5 @@
 package com.github.soyulysses.elysium_fabric.event.block;
 
-import com.google.common.base.Suppliers;
-import com.google.common.collect.BiMap;
 import com.google.common.collect.ImmutableBiMap;
 import net.fabricmc.fabric.api.event.player.UseBlockCallback;
 import net.minecraft.block.Block;
@@ -11,7 +9,6 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
-import net.minecraft.item.PotionItem;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.potion.PotionUtil;
 import net.minecraft.potion.Potions;
