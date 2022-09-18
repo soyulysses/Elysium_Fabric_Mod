@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "elysium_fabric:block/tuff_bricks"
+    }
+  }
+}

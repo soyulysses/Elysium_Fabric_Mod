@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:adventure/avoid_vibration",
+  "criteria": {
+    "use_echo_shard": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:echo_shard"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:sculk_shrieker"
+            ]
+          }
+        }
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "Reactivate a sculk shrieker by using an echo shard on it."
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:echo_shard"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "Back on track"
+    }
+  },
+  "requirements": [
+    [
+      "use_echo_shard"
+    ]
+  ]
+}

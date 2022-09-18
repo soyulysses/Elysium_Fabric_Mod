@@ -3,22 +3,22 @@
   "id": "elysium_fabric",
   "version": "${version}",
   "name": "Elysium Mod",
-  "description": "Testing fabric environment mod",
+  "description": "Variety of utilities for vanilla Minecraft\u2122",
   "authors": [
-    "SoyUlysses",
+    "SoyUlysses"
+  ],
+  "contributors": [
     "ParadoxSubject"
   ],
   "contact": {
-    "website": "https://soyulysses.github.io",
-    "repo": "https://github.com/soyulysses"
+    "homepage": "https://github.com/soyulysses/Elysium_Fabric_Mod",
+    "sources": "https://github.com/soyulysses/Elysium_Fabric_Mod",
+    "issues": "https://github.com/soyulysses/Elysium_Fabric_Mod/issues"
   },
   "license": "MIT",
   "icon": "assets/elysium_fabric/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "com.github.soyulysses.elysium_fabric.client.Elysium_fabricClient"
-    ],
     "main": [
       "com.github.soyulysses.elysium_fabric.Elysium_fabric"
     ]
@@ -29,6 +29,10 @@
   "depends": {
     "fabricloader": ">=0.14.9",
     "fabric": "*",
-    "minecraft": "1.19.1"
+    "minecraft": "1.19.1",
+    "java": ">=17"
+  },
+  "suggests": {
+    "modmenu": "*"
   }
 }

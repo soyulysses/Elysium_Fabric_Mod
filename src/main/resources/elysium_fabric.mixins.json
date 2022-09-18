@@ -4,9 +4,12 @@
   "package": "com.github.soyulysses.elysium_fabric.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "ArmorStandEntityMixin",
     "PlayerEntityMixin"
   ],
   "client": [
+  ],
+  "server": [
   ],
   "injectors": {
     "defaultRequire": 1

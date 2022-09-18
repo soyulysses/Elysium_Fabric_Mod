@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sculk"
+    }
+  ],
+  "result": {
+    "item": "minecraft:echo_shard",
+    "count": 8
+  }
+}

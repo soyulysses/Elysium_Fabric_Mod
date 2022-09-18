@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "elysium_fabric:polished_granite_bricks",
+    "elysium_fabric:polished_diorite_bricks",
+    "elysium_fabric:polished_andesite_bricks",
+    "elysium_fabric:tuff_bricks"
+  ]
+}
